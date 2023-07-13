@@ -1,0 +1,10 @@
+---
+title: 'About'
+permalink: /about/
+comments: false
+---
+
+### [Canadian Ecological Forecasting Initiative](https://canadianefi.weebly.com/)
+
+Members are located throughout Canada, at universities, governments, NGOs, and the public.
+

@@ -1,0 +1,44 @@
+project:
+  type: website
+  output-dir: docs
+  preview:
+    browser: false
+    timeout: 0.001
+
+website:
+  title: "CEFI Ecological Forecasting Challenges"
+  description: "A site to bring together Canadian researchers interested in ecological forecasting challenges"
+  favicon: "assets/logo/favicon-32x32.png"
+  navbar:
+    logo: "assets/logo/favicon-196x196.png"
+    search: true
+    right:
+      - href: index.qmd
+        text: Home
+      - about.qmd
+      - icon: github
+        href: https://github.com/PredictiveEcology
+      - icon: twitter
+        href: https://twitter.com/PredictiveEcol
+  page-footer:
+    left:
+      - text: "This site is currently maintained by Dr. Eliot McIntire, with contributions by Josie Hughes. Powered by Quarto"
+  sidebar:
+    logo: "assets/logo/favicon-196x196.png"
+  comments:
+      hypothesis:
+        theme: clean
+        openSidebar: false
+  google-analytics: "UA-58633549-2"
+
+format:
+  html:
+    theme:
+      light: flatly
+      dark: darkly
+    css: assets/css/main.css
+    smooth-scroll: true
+    link-external-newwindow: true
+
+editor: visual
+
